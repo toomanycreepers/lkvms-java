@@ -1,0 +1,221 @@
+<mjml>
+  <mj-head>
+    <mj-title>Эликвис</mj-title>
+    <mj-preview>Эликвис</mj-preview>
+    <mj-attributes>
+      <mj-all
+        font-family="Verdana, Helvetica, Arial, sans-serif"
+        padding="0px"
+      ></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#76004B"
+        line-height="135%"
+      ></mj-text>
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="600px" background-color="#1C0F81">
+    <mj-section background-color="#fff" padding="15px 0 60px 0">
+      <mj-column padding="0 16px" width="532px">
+        <mj-image
+          padding="0"
+          width="248px"
+          align="center"
+          src="https://i.imgur.com/5lS7Jvo.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column padding="0 16px" width="500px">
+        <mj-text
+          padding="0 0 20px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="700"
+          font-size="20px"
+          line-height="120%"
+          color="#1C0F81"
+        >
+          Здравствуйте!
+        </mj-text>
+        <mj-text
+          padding="0 0 30px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="700"
+          font-size="32px"
+          line-height="120%"
+          color="#000"
+        >
+          Регистрация в личном кабинете
+        </mj-text>
+        <mj-text
+          padding="0 0 10px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="400"
+          font-size="16px"
+          line-height="120%"
+          color="#000"
+        >
+          Вы получили данное письмо, потому что являетесь клиентом компании ВМС.
+        </mj-text>
+        <mj-text
+          padding="0 0 30px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="400"
+          font-size="16px"
+          line-height="120%"
+          color="#000"
+        >
+          Зарегистрируйтесь в личном кабинете, чтобы быстрее получать информацию
+          по своим заказам.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 50px 0">
+      <mj-column padding="0">
+        <mj-text font-family="Verdana" align="center">
+          <mj-raw>
+            <!-- htmlmin:ignore -->
+            <!--[if mso]><v:roundrect href="https://lkvms.ru/auth/register" style="height:40px;v-text-anchor:middle;width:280px;" arcsize="0%" stroke="f" fillcolor="#2924e4"><w:anchorlock/><center><![endif]-->
+            <!-- htmlmin:ignore -->
+          </mj-raw>
+          <a
+            href="https://lkvms.ru/auth/register"
+            style="
+              text-decoration: none;
+              color: #fff;
+              font-weight: 400;
+              display: inline-block;
+              background-color: #2924e4;
+              padding: 8px 56px 11px 56px;
+              border-radius: 0;
+              font-size: 16px;
+            "
+            >Зарегистрироваться</a
+          >
+          <mj-raw>
+            <!-- htmlmin:ignore -->
+            <!--[if mso]></center></v:roundrect><![endif]-->
+            <!-- htmlmin:ignore -->
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 50px 0">
+      <mj-column padding="0 16px" width="532px">
+        <mj-image
+          padding="0"
+          width="500px"
+          align="center"
+          src="https://i.imgur.com/jOtysEZ.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 50px 0">
+      <mj-column padding="0 16px" width="532px">
+        <mj-image
+          padding="0"
+          width="500px"
+          align="center"
+          src="https://i.imgur.com/sLksmOa.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 50px 0">
+      <mj-column padding="0 16px" width="532px">
+        <mj-image
+          padding="0"
+          width="500px"
+          align="center"
+          src="https://i.imgur.com/K1uV1rX.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 50px 0">
+      <mj-column padding="0 16px" width="532px">
+        <mj-image
+          padding="0"
+          width="500px"
+          align="center"
+          src="https://i.imgur.com/jk6r556.png"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column padding="0 16px" width="532px">
+        <mj-text
+          padding="0 0 30px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="400"
+          font-size="16px"
+          line-height="120%"
+          color="#000"
+        >
+          Зарегистрируйтесь в личном кабинете, чтобы всегда оставаться в курсе
+          последних событий
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff" padding="0 0 70px 0">
+      <mj-column padding="0">
+        <mj-text font-family="Verdana" align="center">
+          <mj-raw>
+            <!-- htmlmin:ignore -->
+            <!--[if mso]><v:roundrect href="https://lkvms.ru/auth/register" style="height:40px;v-text-anchor:middle;width:280px;" arcsize="0%" stroke="f" fillcolor="#2924e4"><w:anchorlock/><center><![endif]-->
+            <!-- htmlmin:ignore -->
+          </mj-raw>
+          <a
+            href="https://lkvms.ru/auth/register"
+            style="
+              text-decoration: none;
+              color: #fff;
+              font-weight: 400;
+              display: inline-block;
+              background-color: #2924e4;
+              padding: 8px 56px 11px 56px;
+              border-radius: 0;
+              font-size: 16px;
+            "
+            >Зарегистрироваться</a
+          >
+          <mj-raw>
+            <!-- htmlmin:ignore -->
+            <!--[if mso]></center></v:roundrect><![endif]-->
+            <!-- htmlmin:ignore -->
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fff">
+      <mj-column padding="0 16px" width="532px">
+        <mj-text
+          padding="0 0 20px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="400"
+          font-size="14px"
+          line-height="120%"
+          color="#000"
+        >
+          vms.inbox@yandex.ru
+        </mj-text>
+        <mj-text
+          padding="0 0 50px 0"
+          align="center"
+          font-family="Verdana"
+          font-weight="400"
+          font-size="12px"
+          line-height="120%"
+          color="#0C0C0C"
+        >
+          © 2024. ООО “ВМС ЛАЙН” | Политика конфиденциальности
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

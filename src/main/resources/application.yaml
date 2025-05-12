@@ -1,0 +1,107 @@
+app:
+  base-dir: ${user.dir}
+  secret-key: ${SECRET_KEY:WT3B0JXZVj2+jir863n7+zo7vf3bI0BUDy6QbISGGOI=}
+
+  registration-link: ${FRONTEND_URL}auth/register
+  base-url: https://backend.dev.lkvms.ru
+
+server:
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json,application/xml
+    min-response-size: 1024
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  jpa:
+    hibernate:
+      ddl-auto: none
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+    fallback-to-system-locale: false
+
+  datasource:
+    url: ${DATABASE_URL:} 
+    username: ${DB_USERNAME:}
+    password: ${DB_PASSWORD:}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 5
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080
+  # Mail configuration
+  mail:
+    host: ${EMAIL_HOST:smtp.yandex.ru}
+    port: ${EMAIL_PORT:465}
+    username: ${EMAIL_HOST_USER:user@yandex.com}
+    password: ${EMAIL_HOST_PASSWORD:password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: false
+          ssl:
+            enable: true
+    default-encoding: UTF-8
+
+  cache:
+    type: redis
+  data:
+    redis:
+        host: ${REDIS_HOST:127.0.0.1}
+        port: ${REDIS_PORT:6379}
+        password: ${REDIS_PASSWORD:securePassword}
+  web:
+    resources:
+        static-locations: classpath:/static/,file:${app.base-dir}/staticfiles/
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+
+jwt:
+  secret: ${app.secret-key}
+  access-token-expiration: ${ACCESS_TOKEN_EXPIRATION_SECONDS:600}
+  refresh-token-expiration: ${REFRESH_TOKEN_EXPIRATION_SECONDS:2592000}
+  header:
+    name: Authorization
+    prefix: Bearer
+  algorithm: HS256
+
+storage:
+  type: ${FILE_STORAGE:local}
+  s3:
+    access-key: ${AWS_ACCESS_KEY:}
+    secret-key: ${AWS_SECRET_ACCESS_KEY:}
+    endpoint: https://storage.yandexcloud.net
+    region: storage
+    document-bucket: ${DOCUMENT_BUCKET_NAME:}
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    oauth:
+      client-id: api-client
+      client-secret: secret
+    tags-sorter: alpha
+    operations-sorter: alpha
